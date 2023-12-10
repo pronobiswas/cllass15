@@ -102,6 +102,10 @@ ul,ol{
                     font-style: normal;
                     font-weight: 500;
                     line-height: 14px; /* 100% */
+                    transition: .2s all linear;
+                    & :hover{
+                        color: $secondery;
+                    }
                 }
 
             }
@@ -134,11 +138,6 @@ ul,ol{
         position: absolute;
         right: 0;
         bottom: 0;
-    
-
-
-
-
         // ====banner-content==
     .banner_content_warpper{
         width: 100%;
