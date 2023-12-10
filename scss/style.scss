@@ -121,7 +121,7 @@ ul,ol{
 // =======banner start here==========
 #banner{
     width: 100%;
-    background-color: $bg_praimary;
+    background-color:$bg_praimary;
     position: relative;
     .banner_circel_top01{
         position: absolute;
@@ -139,11 +139,11 @@ ul,ol{
         right: 0;
         bottom: 0;
         // ====banner-content==
+
     .banner_content_warpper{
         width: 100%;
         padding: 234px 0 130px 0;
         display: flex;
-
         position: relative;
         .banner_content{
             width: 50%;
@@ -151,11 +151,11 @@ ul,ol{
                 
                 h1{
                     width: 423px;
-                    color: var(--Primary, #060640);
+                    color: $primary;
                     font-size: 50px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 65px; /* 130% */
+                    line-height: 65px;
                 }
                 p{
                     width: 402px;
@@ -229,9 +229,6 @@ ul,ol{
                     right: -60px;
                     z-index: 7;
                 }
-                
-
-                
                 
             }
         }
