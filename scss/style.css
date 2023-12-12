@@ -96,6 +96,9 @@ ul, ol {
   background-color: #fff;
   color: #060640;
 }
+#navbar .nav_warpper .nav_menu .menu_list .menu_list_item a :hover{
+  color: red;
+}
 
 #banner {
   width: 100%;
