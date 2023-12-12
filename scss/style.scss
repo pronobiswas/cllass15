@@ -590,6 +590,8 @@ ul,ol{
     background-color: $primary;
     .footer_warpper{
         @include center;
+        display: flex;
+        justify-content: space-between;
         .footer_txt{
             width: 45%;
             p{
