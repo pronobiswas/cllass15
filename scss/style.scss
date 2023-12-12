@@ -120,6 +120,9 @@ ul,ol{
             background-color: #fff;
             color: $primary
             ;
+            & :hover{
+                background-color: #00E5CC;
+            }
         }
 
     }
